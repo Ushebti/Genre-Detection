@@ -1,5 +1,6 @@
 import csv
 
+
 with open("movie.csv") as csvfile:
     data = csv.reader(csvfile, dialect="excel", delimiter=";")
 
